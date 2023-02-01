@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+body{
+    position: absolute;
+    height: 72%;
+    background-image: url(imagens/imagens\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 17%;
+    left: -5%;
+    
+}
+
+#quadro{
+    display: flex;
+    color: white;
+    background-color: #00000026;
+    border: 3px solid #ff00000f;
+    border-radius: 10px;
+    height: 18em;
+    width: 30em;
+    margin: auto;
+    margin-top: 6em;
+    margin-left: 44em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rodape{
+    position: relative;
+    color:white;
+    background-color: #00000026;
+    text-align: center;
+    font-size: 10px;
+    height: 7em;
+    width: 50em;
+    margin: auto;
+    margin-left: 80em;
+    margin-top: 50px;
+    border: 1px solid rgba(128, 117, 117, 0.616);
+    border-radius: 12px;
+}
