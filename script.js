@@ -5,7 +5,7 @@ let chave = "cb3f7e2262d6e2a795b7ecde3d7e3904"
 
 function colocaNatela(dados){
     console.log(dados)
-     document.querySelector(".cidade").innerHTML = "tempo em " + dados.name
+     document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name
      document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "°C"
       document.querySelector(".descricao").innerHTML = dados.weather[0].description
       document.querySelector(".umidade").innerHTML = "Umidade:" + dados.main.humidity + "%"
