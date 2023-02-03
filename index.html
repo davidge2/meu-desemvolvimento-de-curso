@@ -6,23 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <title>dev Previsão</title>
 </head>
 
 <body>
   <div class="caixa-maior">
-    <input placeholder="Nome da Cidade">
-    <button>
+    <input class="input-cidade" placeholder=" Nome da Cidade">
+    <button onclick="cliqueiNoBotao()">
       <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
     </button>
     <div class="caixa-media">
-      <h2>tempo em rio de janeiro</h2>
-      <p class="temp">28°c</p>
+      <h2 class="cidade">previsao do tempo</h2>
+      <p class="temp">°c</p>
+      <div class="caixa-menor">
+        <img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+        <p class="descricao">Nuvnes</p>
+      </div>
 
-      <p class="descricao">nuvnes disperças</p>
-      <p class="umidade">umidade:70%</p>
+      <p class="umidade">Umidade:</p>
     </div>
-
+    <footer class="rodape">
+      <p>
+        Site Desenvolvido Por Davidge Borges
+      </p>
+    </footer>
 </body>
 
-</html>     
+</html>
